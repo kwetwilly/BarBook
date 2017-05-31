@@ -74,6 +74,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F211B2081EDF63AC005CA83B /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Swift Files";
+			sourceTree = "<group>";
+		};
 		F28A14421EDF55420006A787 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +104,7 @@
 		F28A144D1EDF55420006A787 /* BarBook */ = {
 			isa = PBXGroup;
 			children = (
+				F211B2081EDF63AC005CA83B /* Swift Files */,
 				F28A144E1EDF55420006A787 /* AppDelegate.swift */,
 				F28A14501EDF55420006A787 /* ViewController.swift */,
 				F28A14521EDF55420006A787 /* Main.storyboard */,
@@ -193,6 +201,7 @@
 				TargetAttributes = {
 					F28A144A1EDF55420006A787 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B6CP63MQWE;
 						ProvisioningStyle = Automatic;
 					};
 					F28A145E1EDF55420006A787 = {
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6CP63MQWE;
 				INFOPLIST_FILE = BarBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBook;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6CP63MQWE;
 				INFOPLIST_FILE = BarBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBook;
@@ -505,6 +516,7 @@
 				F28A14751EDF55420006A787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28A14761EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				F28A14781EDF55420006A787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28A14791EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				F28A147B1EDF55420006A787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
