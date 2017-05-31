@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28A144F1EDF55420006A787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A144E1EDF55420006A787 /* AppDelegate.swift */; };
+		F28A14511EDF55420006A787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A14501EDF55420006A787 /* ViewController.swift */; };
+		F28A14541EDF55420006A787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28A14521EDF55420006A787 /* Main.storyboard */; };
+		F28A14561EDF55420006A787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28A14551EDF55420006A787 /* Assets.xcassets */; };
+		F28A14591EDF55420006A787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28A14571EDF55420006A787 /* LaunchScreen.storyboard */; };
+		F28A14641EDF55420006A787 /* BarBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A14631EDF55420006A787 /* BarBookTests.swift */; };
+		F28A146F1EDF55420006A787 /* BarBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A146E1EDF55420006A787 /* BarBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F28A14601EDF55420006A787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F28A14431EDF55420006A787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28A144A1EDF55420006A787;
+			remoteInfo = BarBook;
+		};
+		F28A146B1EDF55420006A787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F28A14431EDF55420006A787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28A144A1EDF55420006A787;
+			remoteInfo = BarBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F28A144B1EDF55420006A787 /* BarBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28A144E1EDF55420006A787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28A14501EDF55420006A787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F28A14531EDF55420006A787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28A14551EDF55420006A787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28A14581EDF55420006A787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28A145A1EDF55420006A787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28A145F1EDF55420006A787 /* BarBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28A14631EDF55420006A787 /* BarBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBookTests.swift; sourceTree = "<group>"; };
+		F28A14651EDF55420006A787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28A146A1EDF55420006A787 /* BarBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28A146E1EDF55420006A787 /* BarBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBookUITests.swift; sourceTree = "<group>"; };
+		F28A14701EDF55420006A787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28A14481EDF55420006A787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A145C1EDF55420006A787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A14671EDF55420006A787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28A14421EDF55420006A787 = {
+			isa = PBXGroup;
+			children = (
+				F28A144D1EDF55420006A787 /* BarBook */,
+				F28A14621EDF55420006A787 /* BarBookTests */,
+				F28A146D1EDF55420006A787 /* BarBookUITests */,
+				F28A144C1EDF55420006A787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28A144C1EDF55420006A787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28A144B1EDF55420006A787 /* BarBook.app */,
+				F28A145F1EDF55420006A787 /* BarBookTests.xctest */,
+				F28A146A1EDF55420006A787 /* BarBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28A144D1EDF55420006A787 /* BarBook */ = {
+			isa = PBXGroup;
+			children = (
+				F28A144E1EDF55420006A787 /* AppDelegate.swift */,
+				F28A14501EDF55420006A787 /* ViewController.swift */,
+				F28A14521EDF55420006A787 /* Main.storyboard */,
+				F28A14551EDF55420006A787 /* Assets.xcassets */,
+				F28A14571EDF55420006A787 /* LaunchScreen.storyboard */,
+				F28A145A1EDF55420006A787 /* Info.plist */,
+			);
+			path = BarBook;
+			sourceTree = "<group>";
+		};
+		F28A14621EDF55420006A787 /* BarBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F28A14631EDF55420006A787 /* BarBookTests.swift */,
+				F28A14651EDF55420006A787 /* Info.plist */,
+			);
+			path = BarBookTests;
+			sourceTree = "<group>";
+		};
+		F28A146D1EDF55420006A787 /* BarBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F28A146E1EDF55420006A787 /* BarBookUITests.swift */,
+				F28A14701EDF55420006A787 /* Info.plist */,
+			);
+			path = BarBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28A144A1EDF55420006A787 /* BarBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28A14731EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBook" */;
+			buildPhases = (
+				F28A14471EDF55420006A787 /* Sources */,
+				F28A14481EDF55420006A787 /* Frameworks */,
+				F28A14491EDF55420006A787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarBook;
+			productName = BarBook;
+			productReference = F28A144B1EDF55420006A787 /* BarBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F28A145E1EDF55420006A787 /* BarBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28A14761EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookTests" */;
+			buildPhases = (
+				F28A145B1EDF55420006A787 /* Sources */,
+				F28A145C1EDF55420006A787 /* Frameworks */,
+				F28A145D1EDF55420006A787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28A14611EDF55420006A787 /* PBXTargetDependency */,
+			);
+			name = BarBookTests;
+			productName = BarBookTests;
+			productReference = F28A145F1EDF55420006A787 /* BarBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F28A14691EDF55420006A787 /* BarBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28A14791EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookUITests" */;
+			buildPhases = (
+				F28A14661EDF55420006A787 /* Sources */,
+				F28A14671EDF55420006A787 /* Frameworks */,
+				F28A14681EDF55420006A787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28A146C1EDF55420006A787 /* PBXTargetDependency */,
+			);
+			name = BarBookUITests;
+			productName = BarBookUITests;
+			productReference = F28A146A1EDF55420006A787 /* BarBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28A14431EDF55420006A787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zach Bockskopf";
+				TargetAttributes = {
+					F28A144A1EDF55420006A787 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F28A145E1EDF55420006A787 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28A144A1EDF55420006A787;
+					};
+					F28A14691EDF55420006A787 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28A144A1EDF55420006A787;
+					};
+				};
+			};
+			buildConfigurationList = F28A14461EDF55420006A787 /* Build configuration list for PBXProject "BarBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28A14421EDF55420006A787;
+			productRefGroup = F28A144C1EDF55420006A787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28A144A1EDF55420006A787 /* BarBook */,
+				F28A145E1EDF55420006A787 /* BarBookTests */,
+				F28A14691EDF55420006A787 /* BarBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28A14491EDF55420006A787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A14591EDF55420006A787 /* LaunchScreen.storyboard in Resources */,
+				F28A14561EDF55420006A787 /* Assets.xcassets in Resources */,
+				F28A14541EDF55420006A787 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A145D1EDF55420006A787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A14681EDF55420006A787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28A14471EDF55420006A787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A14511EDF55420006A787 /* ViewController.swift in Sources */,
+				F28A144F1EDF55420006A787 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A145B1EDF55420006A787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A14641EDF55420006A787 /* BarBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A14661EDF55420006A787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A146F1EDF55420006A787 /* BarBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F28A14611EDF55420006A787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28A144A1EDF55420006A787 /* BarBook */;
+			targetProxy = F28A14601EDF55420006A787 /* PBXContainerItemProxy */;
+		};
+		F28A146C1EDF55420006A787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28A144A1EDF55420006A787 /* BarBook */;
+			targetProxy = F28A146B1EDF55420006A787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F28A14521EDF55420006A787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28A14531EDF55420006A787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28A14571EDF55420006A787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28A14581EDF55420006A787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28A14711EDF55420006A787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F28A14721EDF55420006A787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28A14741EDF55420006A787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F28A14751EDF55420006A787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F28A14771EDF55420006A787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBook.app/BarBook";
+			};
+			name = Debug;
+		};
+		F28A14781EDF55420006A787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBook.app/BarBook";
+			};
+			name = Release;
+		};
+		F28A147A1EDF55420006A787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BarBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarBook;
+			};
+			name = Debug;
+		};
+		F28A147B1EDF55420006A787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BarBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Box.BarBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28A14461EDF55420006A787 /* Build configuration list for PBXProject "BarBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28A14711EDF55420006A787 /* Debug */,
+				F28A14721EDF55420006A787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28A14731EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28A14741EDF55420006A787 /* Debug */,
+				F28A14751EDF55420006A787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28A14761EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28A14771EDF55420006A787 /* Debug */,
+				F28A14781EDF55420006A787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28A14791EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28A147A1EDF55420006A787 /* Debug */,
+				F28A147B1EDF55420006A787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28A14431EDF55420006A787 /* Project object */;
+}
