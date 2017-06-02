@@ -13,8 +13,11 @@ class ViewController: UIViewController {
 
 /*-Global Varaibles-*/
     
+    @IBOutlet weak var navBar: UINavigationItem!
     @IBOutlet weak var sideMenu: UIView!
     @IBOutlet weak var menuLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var searchBarTopConstraint: NSLayoutConstraint!
+
     var menuIsShown = false
     
 /*----------------*/
@@ -73,10 +76,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openSearchBar(_ sender: Any) {
-        
-        
-        
-        
+//        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        searchBarTopConstraint.constant = 100
     }
     
     
