@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class ViewController: UIViewController {
     
@@ -43,6 +45,19 @@ class ViewController: UIViewController {
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
         leftSwipe.direction = UISwipeGestureRecognizerDirection.left
         self.view.addGestureRecognizer(leftSwipe)
+        
+        //Get data from Firebase
+        var ref: FIRDatabaseReference!
+        ref = FIRDatabase.database().reference()
+        ref.child("sports_pub").observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get bar deal info value
+            let value = snapshot.value as? NSDictionary
+            print(value)
+            
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
