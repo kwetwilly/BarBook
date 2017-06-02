@@ -7,6 +7,7 @@ target 'BarBook' do
 
   # Pods for BarBook
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'BarBookTests' do
     inherit! :search_paths
