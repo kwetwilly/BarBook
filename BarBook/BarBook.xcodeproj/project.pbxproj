@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4D17E6EA8B3F94B0D57FF1 /* Pods_BarBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32493041F117773C0C79A51 /* Pods_BarBook.framework */; };
+		AB45EEDA80F32684D8F45E63 /* Pods_BarBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3934D6E273A0C173B4D0805 /* Pods_BarBookTests.framework */; };
+		B625F70CA7658ED6C34FCCD1 /* Pods_BarBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB89B0B92BE7E092BCB96C9A /* Pods_BarBookUITests.framework */; };
 		F211B20D1EE0C6A2005CA83B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211B20C1EE0C6A2005CA83B /* SearchViewController.swift */; };
 		F28A144F1EDF55420006A787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A144E1EDF55420006A787 /* AppDelegate.swift */; };
 		F28A14511EDF55420006A787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A14501EDF55420006A787 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		F28A14591EDF55420006A787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28A14571EDF55420006A787 /* LaunchScreen.storyboard */; };
 		F28A14641EDF55420006A787 /* BarBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A14631EDF55420006A787 /* BarBookTests.swift */; };
 		F28A146F1EDF55420006A787 /* BarBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A146E1EDF55420006A787 /* BarBookUITests.swift */; };
+		FDEA66841EE0F25E00DEED78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDEA66831EE0F25E00DEED78 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13882B8B9ADA2C0DA9659085 /* Pods-BarBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarBook/Pods-BarBook.debug.xcconfig"; sourceTree = "<group>"; };
+		89D5C52722CFE01C099C3972 /* Pods-BarBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarBook/Pods-BarBook.release.xcconfig"; sourceTree = "<group>"; };
+		A32493041F117773C0C79A51 /* Pods_BarBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA46B19F1B0E9FF1DAAB52BB /* Pods-BarBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarBookTests/Pods-BarBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3934D6E273A0C173B4D0805 /* Pods_BarBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CB310F690A39DFCE3B169D /* Pods-BarBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarBookUITests/Pods-BarBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB3DE94336F1E67FF31202C5 /* Pods-BarBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarBookUITests/Pods-BarBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB89B0B92BE7E092BCB96C9A /* Pods_BarBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F211B20C1EE0C6A2005CA83B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F28A144B1EDF55420006A787 /* BarBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28A144E1EDF55420006A787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		F28A146A1EDF55420006A787 /* BarBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28A146E1EDF55420006A787 /* BarBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBookUITests.swift; sourceTree = "<group>"; };
 		F28A14701EDF55420006A787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEA66831EE0F25E00DEED78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDFC6E7211A19E390DEF9974 /* Pods-BarBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarBookTests/Pods-BarBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D17E6EA8B3F94B0D57FF1 /* Pods_BarBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB45EEDA80F32684D8F45E63 /* Pods_BarBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B625F70CA7658ED6C34FCCD1 /* Pods_BarBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0322CDD62A0C219EDCD775CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32493041F117773C0C79A51 /* Pods_BarBook.framework */,
+				B3934D6E273A0C173B4D0805 /* Pods_BarBookTests.framework */,
+				DB89B0B92BE7E092BCB96C9A /* Pods_BarBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D9B6B5FAAA047969FAEED6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13882B8B9ADA2C0DA9659085 /* Pods-BarBook.debug.xcconfig */,
+				89D5C52722CFE01C099C3972 /* Pods-BarBook.release.xcconfig */,
+				FDFC6E7211A19E390DEF9974 /* Pods-BarBookTests.debug.xcconfig */,
+				AA46B19F1B0E9FF1DAAB52BB /* Pods-BarBookTests.release.xcconfig */,
+				DB3DE94336F1E67FF31202C5 /* Pods-BarBookUITests.debug.xcconfig */,
+				C7CB310F690A39DFCE3B169D /* Pods-BarBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F211B2081EDF63AC005CA83B /* Swift Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +142,8 @@
 				F28A14621EDF55420006A787 /* BarBookTests */,
 				F28A146D1EDF55420006A787 /* BarBookUITests */,
 				F28A144C1EDF55420006A787 /* Products */,
+				7D9B6B5FAAA047969FAEED6E /* Pods */,
+				0322CDD62A0C219EDCD775CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +163,7 @@
 				F211B20B1EE0C67F005CA83B /* Storyboard */,
 				F211B2081EDF63AC005CA83B /* Swift Files */,
 				F28A14551EDF55420006A787 /* Assets.xcassets */,
+				FDEA66831EE0F25E00DEED78 /* GoogleService-Info.plist */,
 				F28A145A1EDF55420006A787 /* Info.plist */,
 			);
 			path = BarBook;
@@ -151,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28A14731EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBook" */;
 			buildPhases = (
+				646474B11BE250F1ADC82011 /* [CP] Check Pods Manifest.lock */,
 				F28A14471EDF55420006A787 /* Sources */,
 				F28A14481EDF55420006A787 /* Frameworks */,
 				F28A14491EDF55420006A787 /* Resources */,
+				61CD89456B91787176B403C7 /* [CP] Embed Pods Frameworks */,
+				9ACD52E44BF1919FC135FD6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28A14761EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookTests" */;
 			buildPhases = (
+				9285BD5F712CECE5A3AD47F1 /* [CP] Check Pods Manifest.lock */,
 				F28A145B1EDF55420006A787 /* Sources */,
 				F28A145C1EDF55420006A787 /* Frameworks */,
 				F28A145D1EDF55420006A787 /* Resources */,
+				F3776CC4E6D8CF728C2E6F44 /* [CP] Embed Pods Frameworks */,
+				A18760DEF9C1E1E36C1AFBC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28A14791EDF55420006A787 /* Build configuration list for PBXNativeTarget "BarBookUITests" */;
 			buildPhases = (
+				1B7130C965CF10EEEFFA4D9F /* [CP] Check Pods Manifest.lock */,
 				F28A14661EDF55420006A787 /* Sources */,
 				F28A14671EDF55420006A787 /* Frameworks */,
 				F28A14681EDF55420006A787 /* Resources */,
+				DE94446BBB2B86C3E9C8342C /* [CP] Embed Pods Frameworks */,
+				5A66B051A5E1283F704F0C72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28A14591EDF55420006A787 /* LaunchScreen.storyboard in Resources */,
+				FDEA66841EE0F25E00DEED78 /* GoogleService-Info.plist in Resources */,
 				F28A14561EDF55420006A787 /* Assets.xcassets in Resources */,
 				F28A14541EDF55420006A787 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +326,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B7130C965CF10EEEFFA4D9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A66B051A5E1283F704F0C72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBookUITests/Pods-BarBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61CD89456B91787176B403C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBook/Pods-BarBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646474B11BE250F1ADC82011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9285BD5F712CECE5A3AD47F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACD52E44BF1919FC135FD6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBook/Pods-BarBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18760DEF9C1E1E36C1AFBC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBookTests/Pods-BarBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE94446BBB2B86C3E9C8342C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBookUITests/Pods-BarBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3776CC4E6D8CF728C2E6F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarBookTests/Pods-BarBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F28A14471EDF55420006A787 /* Sources */ = {
@@ -431,6 +622,7 @@
 		};
 		F28A14741EDF55420006A787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13882B8B9ADA2C0DA9659085 /* Pods-BarBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B6CP63MQWE;
@@ -444,6 +636,7 @@
 		};
 		F28A14751EDF55420006A787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D5C52722CFE01C099C3972 /* Pods-BarBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B6CP63MQWE;
@@ -457,6 +650,7 @@
 		};
 		F28A14771EDF55420006A787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFC6E7211A19E390DEF9974 /* Pods-BarBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +665,7 @@
 		};
 		F28A14781EDF55420006A787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA46B19F1B0E9FF1DAAB52BB /* Pods-BarBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +680,7 @@
 		};
 		F28A147A1EDF55420006A787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3DE94336F1E67FF31202C5 /* Pods-BarBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BarBookUITests/Info.plist;
@@ -498,6 +694,7 @@
 		};
 		F28A147B1EDF55420006A787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CB310F690A39DFCE3B169D /* Pods-BarBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BarBookUITests/Info.plist;
