@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//side menu
+        sideMenu.layer.shadowOpacity = 1
+        sideMenu.layer.shadowRadius = 6
+        
         
 //Swipe Declarations
         
@@ -53,7 +57,7 @@ class ViewController: UIViewController {
     @IBAction func openMenu(_ sender: Any) {
         
         if menuIsShown{
-            menuLeadingConstraint.constant = -196
+            menuLeadingConstraint.constant = -200
         }else{
             menuLeadingConstraint.constant = 0
         }
@@ -81,7 +85,7 @@ class ViewController: UIViewController {
     func swipeAction(swipe:UISwipeGestureRecognizer) {
         
         if swipe.direction.rawValue == 2{
-            menuLeadingConstraint.constant = -196
+            menuLeadingConstraint.constant = -200
         }
         menuIsShown = !menuIsShown
         
