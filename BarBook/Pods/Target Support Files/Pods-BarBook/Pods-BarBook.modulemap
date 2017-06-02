@@ -1,0 +1,6 @@
+framework module Pods_BarBook {
+  umbrella header "Pods-BarBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
