@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-XJ-9pk">
-                                <rect key="frame" x="-196" y="64" width="196" height="603"/>
+                                <rect key="frame" x="-210" y="64" width="196" height="603"/>
                                 <color key="backgroundColor" name="selectedMenuItemColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="pd3-TT-N27"/>
@@ -34,7 +34,7 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CZl-XJ-9pk" secondAttribute="bottom" id="2qA-fn-U4j"/>
                             <constraint firstItem="CZl-XJ-9pk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="H4w-Em-MRZ"/>
-                            <constraint firstItem="CZl-XJ-9pk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-196" id="Hiq-xo-jAx"/>
+                            <constraint firstItem="CZl-XJ-9pk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-210" id="Hiq-xo-jAx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BarBook" id="Hzz-zO-uAS">

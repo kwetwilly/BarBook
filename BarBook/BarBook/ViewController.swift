@@ -57,9 +57,16 @@ class ViewController: UIViewController {
     @IBAction func openMenu(_ sender: Any) {
         
         if menuIsShown{
-            menuLeadingConstraint.constant = -200
+            menuLeadingConstraint.constant = -210
+            UIView.animate(withDuration: 0.2, animations: {
+                self.view.layoutIfNeeded()
+            })
         }else{
             menuLeadingConstraint.constant = 0
+            UIView.animate(withDuration: 0.2, animations: {
+                self.view.layoutIfNeeded()
+            })
+            
         }
         
         menuIsShown = !menuIsShown
@@ -78,6 +85,9 @@ class ViewController: UIViewController {
     func leftEdgeGeature(_ recognizer: UIScreenEdgePanGestureRecognizer) {
         if recognizer.state == .recognized {
             menuLeadingConstraint.constant = 0
+            UIView.animate(withDuration: 0.2, animations: {
+                self.view.layoutIfNeeded()
+            })
         }
     }
 
@@ -85,7 +95,10 @@ class ViewController: UIViewController {
     func swipeAction(swipe:UISwipeGestureRecognizer) {
         
         if swipe.direction.rawValue == 2{
-            menuLeadingConstraint.constant = -200
+            menuLeadingConstraint.constant = -210
+            UIView.animate(withDuration: 0.2, animations: {
+                self.view.layoutIfNeeded()
+            })
         }
         menuIsShown = !menuIsShown
         
