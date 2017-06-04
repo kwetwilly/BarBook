@@ -10,17 +10,29 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
 
 /*-Global Varaibles-*/
     
+    
+    
     @IBOutlet weak var navBar: UINavigationItem!
     @IBOutlet weak var sideMenu: UIView!
+    @IBOutlet weak var sideMenuTableView: UITableView!
     @IBOutlet weak var menuLeadingConstraint: NSLayoutConstraint!
     @IBOutlet weak var searchBarTopConstraint: NSLayoutConstraint!
 
     var menuIsShown = false
+    let daysOfTheWeek: Array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    @IBOutlet weak var todayLabel: UILabel!
+    
+    var ref: FIRDatabaseReference!
+    
+    var dayday = [NSDictionary]()
+    
+    var tempitems: Array<Any> = ["hello"]
+
     
 /*----------------*/
 /*-Main Functions-*/
@@ -32,7 +44,7 @@ class ViewController: UIViewController {
 //side menu
         sideMenu.layer.shadowOpacity = 1
         sideMenu.layer.shadowRadius = 6
-        
+        todayLabel.text = "Sunday"
         
 //Swipe Declarations
         
@@ -46,12 +58,13 @@ class ViewController: UIViewController {
         leftSwipe.direction = UISwipeGestureRecognizerDirection.left
         self.view.addGestureRecognizer(leftSwipe)
         
-        //Get data from Firebase
-        var ref: FIRDatabaseReference!
+//Get data from Firebase
         ref = FIRDatabase.database().reference()
+        
         ref.child("sports_pub").observeSingleEvent(of: .value, with: { (snapshot) in
             // Get bar deal info value
             let value = snapshot.value as? NSDictionary
+            
             print(value)
             
         }) { (error) in
@@ -71,7 +84,10 @@ class ViewController: UIViewController {
 /*-User functions-*/
 /*----------------*/
     
-//Used for detecting menu button click and opening and closing the side menu
+    
+/*-Used for detecting menu button click and opening and closing the side menu-*/
+/*----------------------------------------------------------------------------*/
+    
     @IBAction func openMenu(_ sender: Any) {
         
         if menuIsShown{
@@ -130,6 +146,59 @@ class ViewController: UIViewController {
         }*/
     }
     
+/*-----------------*/
+/*-Populate tables-*/
+/*-----------------*/
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if tableView.tag == 1{
+            
+            return tempitems.count
+        } else if tableView.tag == 2 {
+            return daysOfTheWeek.count
+        }
+        
+        return 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        
+        if tableView.tag == 1{
+            
+            cell.textLabel?.text = String(describing: tempitems[indexPath.row])
+            
+            return cell
+    
+        }else if tableView.tag == 2{
+            cell.textLabel?.text = daysOfTheWeek[indexPath.row]
+            return cell
+        }
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        if tableView.tag == 1{
+            
+            
+            
+        } else if tableView.tag == 2 {
+            
+            todayLabel.text = daysOfTheWeek[indexPath.row]
+            menuLeadingConstraint.constant = -210
+            UIView.animate(withDuration: 0.2, animations: {
+                self.view.layoutIfNeeded()
+            })
+            
+        }
+    }
 
 }
 
